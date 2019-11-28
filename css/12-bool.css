@@ -25,6 +25,10 @@
   float: left;
 }
 
+.white {
+  border: 2px solid white;
+}
+
 .col-1 {
   width: calc((100% / 12) *1)
 }
@@ -60,4 +64,8 @@
 }
 .col-12 {
   width: calc((100% / 12) *12)
+}
+
+.col-offset-1 {
+  margin-left: calc((100% / 12) *1);
 }

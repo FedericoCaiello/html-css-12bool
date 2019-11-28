@@ -1,0 +1,17 @@
+[class*="col-"]{
+  text-align: center;
+  vertical-align: middle;
+  line-height: 200px;
+}
+
+.container {
+  background-color: pink;
+}
+
+/* #border-white {
+  border: 5px solid white;
+} */
+
+.background {
+  background-color: #f77676;
+}
