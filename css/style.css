@@ -8,10 +8,16 @@
   background-color: pink;
 }
 
-/* #border-white {
-  border: 5px solid white;
-} */
-
 .background {
   background-color: #f77676;
+  height: 200px;
+}
+
+.container [class*="col-"] [class*="col-"]{
+  border: 1px solid white;
+  height: 100%;
+  background-color: #f77676;
+}
+.bottom {
+  padding: 5px;
 }
